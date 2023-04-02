@@ -93,6 +93,7 @@ btnHold.addEventListener('click', function () {
       // Finish game
       // If not, switch player to the next player
       switchPlayer();
+      console.log(switchPlayer);
     }
   }
 });
